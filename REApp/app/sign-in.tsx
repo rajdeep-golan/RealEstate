@@ -14,6 +14,7 @@ import { Redirect } from "expo-router";
 import { useGlobalContext } from "@/lib/global-provider";
 import icons from "@/constants/icons";
 import images from "@/constants/images";
+import seed from "@/lib/seed";
 
 const Auth = () => {
   const { refetch, loading, isLogged } = useGlobalContext();
@@ -68,6 +69,18 @@ const Auth = () => {
               </Text>
             </View>
           </TouchableOpacity>
+
+          <TouchableOpacity
+            onPress={seed}
+            className="bg-white shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-5"
+          >
+            <View className="flex flex-row items-center justify-center">
+              <Text className="text-lg font-rubik-medium text-black-300 ml-2">
+                seed
+              </Text>
+            </View>
+          </TouchableOpacity>
+
         </View>
       </ScrollView>
     </SafeAreaView>
