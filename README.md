@@ -3,7 +3,7 @@
 
 This is a universal React Native application built with Expo, designed to showcase real estate properties. It integrates with **Appwrite** as a backend to manage property listings, agent details, reviews, and image galleries, offering features like search, filtering, and user authentication.
 
-## ✨ Features
+## Features
 
 ### Property Listings
 Browse and view details of various real estate properties (Houses, Condos, Apartments, etc.).
@@ -23,7 +23,7 @@ In-app functionality to populate the Appwrite database with mock data for testin
 ### Responsive UI
 Designed to look good and function across different screen sizes.
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - **React Native** – A framework for building native mobile apps using React.
 - **Expo** – A framework and platform for universal React applications.
