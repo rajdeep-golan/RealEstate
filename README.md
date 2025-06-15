@@ -16,7 +16,6 @@ Search for properties by name, address, or type, and apply filters.
 
 ### User Authentication
 - **Google OAuth**: Securely sign in using your Google account.
-- **Guest Access**: Browse properties without needing to log in.
 
 ### Data Seeding
 In-app functionality to populate the Appwrite database with mock data for testing and demonstration purposes.
